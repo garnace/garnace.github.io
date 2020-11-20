@@ -96,7 +96,12 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_6"
+        "id": "_6",
+        "name": "ElevationProfile",
+        "version": "2.17",
+        "closeable": true,
+        "uri": "widgets/ElevationProfile/Widget",
+        "config": "configs/ElevationProfile/config__6.json"
       },
       {
         "position": {
@@ -104,7 +109,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 2,
+        "placeholderIndex": 1,
         "id": "_7"
       },
       {
@@ -113,7 +118,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 3,
+        "placeholderIndex": 2,
         "id": "_8"
       },
       {
@@ -122,7 +127,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 4,
+        "placeholderIndex": 3,
         "id": "_9"
       },
       {
