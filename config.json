@@ -21,7 +21,7 @@
   "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Assign 4 Map",
+  "title": "Observatories and Telescopes of the Western Hemisphere",
   "subtitle": "with ArcGIS Web AppBuilder",
   "keepAppState": true,
   "logo": "images/app-logo.png",
@@ -83,11 +83,11 @@
         },
         "placeholderIndex": 1,
         "id": "_5",
-        "name": "PopupPanel",
+        "name": "ElevationProfile",
         "version": "2.17",
         "closeable": true,
-        "uri": "widgets/PopupPanel/Widget",
-        "config": "configs/PopupPanel/config__5.json"
+        "uri": "widgets/ElevationProfile/Widget",
+        "config": "configs/ElevationProfile/config__5.json"
       },
       {
         "position": {
@@ -97,11 +97,11 @@
         },
         "placeholderIndex": 1,
         "id": "_6",
-        "name": "ElevationProfile",
-        "version": "2.17",
+        "name": "About",
+        "version": "2.18",
         "closeable": true,
-        "uri": "widgets/ElevationProfile/Widget",
-        "config": "configs/ElevationProfile/config__6.json"
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config__6.json"
       },
       {
         "position": {
@@ -110,7 +110,12 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_7"
+        "id": "_7",
+        "name": "BasemapGallery",
+        "version": "2.18",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__7.json"
       },
       {
         "position": {
@@ -118,8 +123,13 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 2,
-        "id": "_8"
+        "placeholderIndex": 1,
+        "id": "_8",
+        "name": "GridOverlay",
+        "version": "2.18",
+        "closeable": true,
+        "uri": "widgets/GridOverlay/Widget",
+        "config": "configs/GridOverlay/config__8.json"
       },
       {
         "position": {
@@ -127,7 +137,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 3,
+        "placeholderIndex": 1,
         "id": "_9"
       },
       {
@@ -235,7 +245,7 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "6cbf438d64f14a179189c552630187df",
+    "itemId": "1fe535d3834a439e92b601d5a819e648",
     "mapOptions": {},
     "id": "map",
     "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
